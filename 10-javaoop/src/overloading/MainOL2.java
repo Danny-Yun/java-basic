@@ -1,0 +1,18 @@
+package overloading;
+
+public class MainOL2 {
+	
+	public static void main(String[] args) {
+		
+		OverTest o1 = new OverTest();
+		OverTest o2 = new OverTest("2번 함수");
+		OverTest o3 = new OverTest(3);
+		OverTest o4 = new OverTest("4번 함수", 4);
+		
+		o1.showData();
+		o2.showData();
+		o3.showData();
+		o4.showData();
+	}
+
+}
